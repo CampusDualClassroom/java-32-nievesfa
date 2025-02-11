@@ -35,7 +35,7 @@ public class Exercise32 {
     }
 
     public static void printToFile(String string) {
-        File file = new File("/Users/nievesfacorro/Documents/CAMPUSDUAL/FULL_STACK/PROJECTS/BACKEND/Classroom/Ejercicio_32_nievesfa/src/main/resources/data.text");  // Especificamos el archivo donde se guardará el texto, se crea antes la ruta para poder guardar en el
+        File file = new File("src/main/resources/data.txt");  // Especificamos el archivo donde se guardará el texto, se crea antes la ruta para poder guardar en el
 
         try (FileWriter writer = new FileWriter(file)) {
             writer.write(string);  // Escribe la cadena en el archivo
