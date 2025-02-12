@@ -24,6 +24,7 @@ public class Exercise32 {
 
     }
 
+
     private static String generateUserInputToSave(){
         StringBuilder sb = new StringBuilder();
         System.out.println("Escribe debajo el texto que quieras. Pulsa \"ENTER\" 2 veces seguidas para finalizar:");
